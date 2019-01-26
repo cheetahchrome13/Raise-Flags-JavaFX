@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Ch30RaiseFlags.jnlp">
+  <information>
+    <title>Ch30RaiseFlags</title>
+    <vendor>Justin Mangan</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Ch30RaiseFlags.jar" size="56329" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Ch30RaiseFlags" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="ch30raiseflags.FlagPole"  name="Ch30RaiseFlags" />
+  <update check="always"/>
+</jnlp>
